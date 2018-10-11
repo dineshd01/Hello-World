@@ -10,8 +10,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
     {
-       // Console.WriteLine($"Number of command line args= {args.Length}");
-             
+                 
         foreach (string s in args)
         {
             System.Console.WriteLine("Hello " + s);
